@@ -1,0 +1,87 @@
+/* shared style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+
+/* header style */
+
+
+
+
+
+/* main style */
+
+.section-1 {
+    padding-top: 3rem;
+    margin: 2rem auto;
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 500px;
+}
+
+.section-1 ::backdrop{
+    opacity: -0.5;
+}
+
+.section-1 h2 {
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+}
+
+.section-1 p {
+    text-align: center;
+    margin: 2rem 5rem;
+    color: #fff;
+
+}
+
+.input-field-1 {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    /* margin: auto auto; */
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    align-items: flex-start;
+    gap: 1.5rem;
+
+}
+
+.section-1 input[type=text] {
+    color: rgba(19, 19, 24, 0.50);
+    height: 4rem;
+    width: 11rem;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.section-1 select {
+    height: 4rem;
+    width: 11rem;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+
+    border-radius: 0.5rem;
+    color: rgba(19, 19, 24, 0.50);
+
+}
+
+.section-1 button {
+    height: 4rem;
+    width: 11rem;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background: #FF5400;
+}
