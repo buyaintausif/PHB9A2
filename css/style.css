@@ -335,6 +335,71 @@ height: 64px;
 
 
 
+
+
+
+
+
+
+
+/* 
+footer styele */
+
+
+
+.last{
+    width: 1300px;
+    height: 480px;
+    margin: 24px auto 0px;
+   }
+   
+
+   .first{
+    display: flex;
+    justify-content: center;
+   }
+
+   .first img{
+    width: 40px;
+height: 46.673px;
+margin-right: 1rem;
+   }
+
+   .first span{
+    color: #FF5400;
+
+   
+
+   }
+
+   .last p{
+    margin: 2rem 4rem;
+   }
+
+  
+   .social{
+    padding: 36px;
+    text-align: center;
+   }
+  
+   .social img{
+    margin: 8px;
+   }
+
+   .last-line{
+    text-align: center;
+    margin:2rem auto
+   }
+  
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
 
 
@@ -621,6 +686,53 @@ height: 64px;
     font-size: 1.5rem;
 
 }
+
+
+
+.last{
+    height: 250x;
+   max-width: 350px;
+    margin: 1rem auto;
+   }
+   
+
+   .first{
+    display: flex;
+    justify-content: center;
+   }
+
+   .first img{
+    width: 40px;
+height: 46.673px;
+margin-right: 1rem;
+   }
+
+   .first span{
+    color: #FF5400;
+
+   
+
+   }
+
+   .last p{
+    margin: 1rem 2rem;
+    text-align: center;
+   }
+
+  
+   .social{
+    padding: 36px;
+    text-align: center;
+   }
+  
+   .social img{
+    margin: 8px;
+   }
+
+   .last-line{
+    text-align: center;
+    margin:1rem auto
+   }
 
 
 }
